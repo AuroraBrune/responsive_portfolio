@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Aurora Brune Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact Info</a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>
-           
-          </ul>
-         
-        </div>
-      </nav>
+    <div class="mx-auto" class="col-lg-12">
+         <!--Responsive/Interractive NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand">Aurora Brune Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+<!--Links to each page.-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Info</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
 
-    <div class="container">
-        <div class="row">
-           
-            <div class="col-sm-4">
-                One of three columns
+                </ul>
+
             </div>
-            <div class="col-sm-4">
-                One of three columns
-            </div>
-            <div class="col-sm-4">
-                One of three columns
-            </div>
-        </div>
+        </nav>
     </div>
-        </div>
-      
 
-    
+    <!--Images of some of my favorite things.-->
+    <div class="container">
+        <div class="m-4" class="row">
+            <div class="col-lg-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <img class="img-fluid" class="rounded float-left" src="./Assets/Images/Butterrly on the Zinnia2.jpg"
+                    alt="Butterfly in the Zinnias">My butterfly on my Zinnias. I raise Monarchs from eggs and caterpillars; and I grow gardens of flowers
+            </div>
+
+            <div class="col-lg-3">
+                <img class="img-fluid" class="rounded float-left" src="./Assets/Images/Butterfly in the Zinnias3.jpg" alt="Butterfly on the Zinnia">Male Monarch Butterfly in my Garden. 
+            </div>
+
+            <div class="col-lg-3">
+                <img class="img-fluid" class="rounded float-left" src="./Assets/Images/Dash and Barley4.jpg" alt="Dash and Barley Playing">Those silly dogs
+                playing in the house. Dash is our German Shepherd and Barley is our Black Lab mix. 
+            </div>
+
+            <div class="col-lg-3">
+                <img class="img-fluid" class="rounded float-left" src="./Assets/Images/Dash in the Grass4.jpg" alt="My dog Dash">Dash loves to spend time outside and really loves to play in the water!
+            </div>
+
+        </div>
+
+    </div>
+
+
+
 </body>
+
 </html>
