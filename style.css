@@ -13,6 +13,14 @@
     list-style: none;
 }
 
-img {
-    border: solid mediumblue;
+img  {
+    border: solid blue;
+}
+
+.photo {
+    border: solid dodgerblue;
+}
+
+.projlinks {
+    text-align: center;
 }
