@@ -81,8 +81,10 @@ We would like you to have well over 200 commits by graduation, so commit early a
 https://aurorabrune.github.io/responsive_portfolio_homework/
 
 ![homePage](./Assets/Images/homePageScreen.jpg)
-![portfolioPage](./Assets/Images/portfolioScreenShot.jpg)
+---------
 ![contactPage](./Assets/Images/contactScreen.jpg)
+---------
+![portfolioPage](./Assets/Images/portfolioScreenShot.jpg)
 
 Copyright 2020
 
