@@ -37,7 +37,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 ---------
-https://aurorabrune.github.io/responsive_portfolio_homework/
+https://aurorabrune.github.io/responsive_portfolio/
 --------
 Heroku link to Project#2 Cocktail_Coterie
 https://cocktail-coterie.herokuapp.com/
